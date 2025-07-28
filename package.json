@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "@clerk/nuxt": "^1.7.12",
+    "@nuxt/icon": "^1.15.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "nuxt": "^3.17.6",
+    "tailwindcss": "^4.1.11",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.30",
+    "@iconify-json/uil": "^1.2.3"
+  }
+}
