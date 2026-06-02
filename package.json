@@ -10,12 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@clerk/clerk-sdk-node": "^4.13.23",
-    "@clerk/nuxt": "^1.7.12",
+    "@clerk/clerk-sdk-node": "^4.12.12",
+    "@clerk/nuxt": "^1.13.26",
     "@nuxt/icon": "^1.15.0",
     "@tailwindcss/vite": "^4.1.11",
     "nuxt": "^3.17.6",
     "tailwindcss": "^4.1.11",
+    "unstorage": "^1.17.4",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },

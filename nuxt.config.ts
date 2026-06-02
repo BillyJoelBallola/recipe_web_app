@@ -9,13 +9,13 @@ export default defineNuxtConfig({
   modules: ["@nuxt/icon", "@clerk/nuxt"],
   runtimeConfig: {
     public: {
-      NUXT_FRONTEND_API: process.env.NUXT_FRONTEND_API,
+      NUXT_FRONTEND_API: process.env.NUXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     },
   },
   app: {
     head: {
       title: "Recipe Box",
-      charset: "utf-16",
+      charset: "utf-8",
       viewport: "width=device-width, initial-scale=1, maximum-scale=1",
       htmlAttrs: {
         lang: "en",

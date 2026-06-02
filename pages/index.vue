@@ -7,7 +7,7 @@ import { categories, recipes } from "~/data";
     <Banner />
     <div class="grid gap-4">
       <h2 class="md:text-xl font-semibold">Categories</h2>
-      <div class="flex flex-wrap items-center gap-4">
+      <div class="flex place-items-center gap-4">
         <CategoryItem :categories />
       </div>
     </div>
